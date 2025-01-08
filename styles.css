@@ -1,10 +1,46 @@
-p {
-    color: #1100ff;
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 3rem ;
+    font: weight 800px;;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
     font-size: 1.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 img {
     height: auto;
     width: 500px;
+}
+
+.Ingredients {
+    background-color: wheat;
+    font-size: 1.2rem;
+}
+
+.Ingredients ul {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.Ingredients ol {
+    font-weight: 200;
+    font-size: 1rem;
 }
