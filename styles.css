@@ -33,6 +33,7 @@ img {
 .Ingredients {
     background-color: wheat;
     font-size: 1.2rem;
+    padding: 24px;
 }
 
 .Ingredients ul {
@@ -43,4 +44,33 @@ img {
 .Ingredients ol {
     font-weight: 200;
     font-size: 1rem;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.cardlink {
+    font-size: 1.5rem;
+}
+
+.cardimg {
+    width: 100%;
 }
